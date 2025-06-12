@@ -1,0 +1,41 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Contexte du Projet}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Projet de Fin d’Études}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Entreprise d’accueil}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Description de l’entreprise}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Fiche technique de l'entreprise}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Organigramme de l’entreprise}{4}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Description des besoins}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Problématique}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Solutions envisagées}{6}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Objectifs}{7}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Les besoins fonctionnels}{7}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Les besoins non fonctionnels}{7}{subsection.1.3.5}%
+\contentsline {chapter}{\numberline {2}Analyse et modélisation}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Importance de l'analyse}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Unified Modeling Language}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagramme de cas d'utilisation}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Définition}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Acteurs}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Notre diagramme de cas d'utilisation}{10}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Réalisation}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Stack technique}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Langages}{12}{subsection.3.1.1}%
+\contentsline {subsubsection}{Java}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Frameworks}{12}{subsection.3.1.2}%
+\contentsline {subsubsection}{Spring}{12}{subsection.3.1.2}%
+\contentsline {subsubsection}{Spring Boot}{13}{subsection.3.1.2}%
+\contentsline {subsubsection}{LangChain4j}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Bibliothèques}{13}{subsection.3.1.3}%
+\contentsline {subsubsection}{Apache Commons}{13}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Systèmes de gestion de bases de données}{13}{subsection.3.1.4}%
+\contentsline {subsubsection}{PostgreSQL}{13}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Outils et environnement}{14}{subsection.3.1.5}%
+\contentsline {subsubsection}{Ollama}{14}{subsection.3.1.5}%
+\contentsline {subsubsection}{Maven}{14}{subsection.3.1.5}%
+\contentsline {subsubsection}{IntelliJ IDEA}{14}{subsection.3.1.5}%
+\contentsline {subsubsection}{Git}{14}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Architecture technique du projet}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Premier prototype}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Fonctionnement d'un agent AI dans LangChain4j}{16}{subsection.3.3.2}%
