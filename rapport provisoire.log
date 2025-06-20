@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  20 JUN 2025 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  20 JUN 2025 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,390 +494,523 @@ Package hyperref Info: Link coloring OFF on input line 25.
 \@outlinefile=\write3
 \openout3 = `"rapport provisoire.out"'.
 
- (rapport provisoire.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 33.
 
 
 [1
 
 
-{C:/Users/Electro_Laaroussi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\tf@toc=\write4
-\openout4 = `"rapport provisoire.toc"'.
+{C:/Users/Electro_Laaroussi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] 
+(rapport provisoire.lof)
+\tf@lof=\write4
+\openout4 = `"rapport provisoire.lof"'.
 
 
 
-[2]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 	\listoftables
+                    [2
+
+] (rapport provisoire.lot)
+\tf@lot=\write5
+\openout5 = `"rapport provisoire.lot"'.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 	\tableofcontents
+                       [3
+
+] (rapport provisoire.toc
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 ...e {3.3}Premier prototype}{20}{section.3.3}
+                                                  % [4
+
+])
+\tf@toc=\write6
+\openout6 = `"rapport provisoire.toc"'.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 	\clearpage
+                 [5]
 Chapitre 1.
 
-Overfull \hbox (37.97421pt too wide) in paragraph at lines 35--36
+Overfull \hbox (37.97421pt too wide) in paragraph at lines 64--65
 []\T1/cmr/m/n/12 L'objectif prin-ci-pal est de se fa-mi-lia-ri-ser avec les réa
 -li-tés du mar-ché du tra-vail, par-ti-cu-liè-re-ment
  []
 
 
-Overfull \hbox (14.44539pt too wide) in paragraph at lines 35--36
+Overfull \hbox (14.44539pt too wide) in paragraph at lines 64--65
 \T1/cmr/m/n/12 dans le do-maine de l'in-for-ma-tique, en per-pé-tuelle évo-lu-t
 ion. Ce pro-jet offre ainsi l'op-por-tu-nité
  []
 
 
-Overfull \hbox (9.68123pt too wide) in paragraph at lines 37--38
+Overfull \hbox (9.68123pt too wide) in paragraph at lines 66--67
 \T1/cmr/m/n/12 pro-fes-sion-nelle a été l'oc-ca-sion dé-cou-vrir le fonc-tion-n
 e-ment d'une équipe pro-jet en condi-tions
  []
 
 
-Overfull \hbox (40.389pt too wide) in paragraph at lines 39--40
+Overfull \hbox (40.389pt too wide) in paragraph at lines 68--69
 []\T1/cmr/m/n/12 L'utilisation de Scrum a ren-forcé ma com-pré-hen-sion des pro
 -ces-sus mo-dernes de dé-ve-lop-pe-ment,
  []
 
 
 
-[3
+[1
+
 
 ]
-<algolus-logo.png, id=181, 471.7625pt x 139.52126pt>
+<algolus-logo.png, id=209, 471.7625pt x 139.52126pt>
 File: algolus-logo.png Graphic file (type png)
 <use algolus-logo.png>
-Package pdftex.def Info: algolus-logo.png  used on input line 49.
+Package pdftex.def Info: algolus-logo.png  used on input line 78.
 (pdftex.def)             Requested size: 136.57462pt x 40.392pt.
-<algolus-organigramme.png, id=183, 859.71187pt x 1047.915pt>
+<algolus-organigramme.png, id=211, 859.71187pt x 1047.915pt>
 File: algolus-organigramme.png Graphic file (type png)
 <use algolus-organigramme.png>
-Package pdftex.def Info: algolus-organigramme.png  used on input line 104.
+Package pdftex.def Info: algolus-organigramme.png  used on input line 133.
 (pdftex.def)             Requested size: 455.24411pt x 554.9126pt.
 
 
-[4
+[2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 	\end{figure}
+l.136 	\end{figure}
                    
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 	\end{figure}
+l.136 	\end{figure}
                     <./algolus-logo.png>]
 
-[5
+[3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 	
+l.143 	
         <./algolus-organigramme.png>]
-Overfull \hbox (15.0979pt too wide) in paragraph at lines 115--116
+Overfull \hbox (15.0979pt too wide) in paragraph at lines 144--145
 \T1/cmr/m/n/12 com-plexité des sys-tèmes gé-rés par l'en-tre-prise, ca-rac-té-r
 i-sés par des ar-chi-tec-tures mi-cro-ser-vices
  []
 
 
-Overfull \hbox (25.54947pt too wide) in paragraph at lines 128--129
+Overfull \hbox (25.54947pt too wide) in paragraph at lines 157--158
 []\T1/cmr/bx/n/12 Analyse et Com-pré-hen-sion \T1/cmr/m/n/12 : Ana-lyse sé-man-
 tique de re-tours d'er-reurs, en-ri-chis-se-ment
  []
 
 
 
-[6]
-Overfull \hbox (18.13596pt too wide) in paragraph at lines 132--133
+[4]
+Overfull \hbox (18.13596pt too wide) in paragraph at lines 161--162
 \T1/cmr/m/n/12 uploa-der des stack-traces et des cap-tures d'écran, vi-sua-li-s
 a-tion des ré-sul-tats : Da-sh-board
  []
 
 
-Overfull \hbox (0.77512pt too wide) in paragraph at lines 140--141
+Overfull \hbox (0.77512pt too wide) in paragraph at lines 169--170
 []\T1/cmr/m/n/12 Pour ga-ran-tir une in-té-gra-tion har-mo-nieuse dans l'éco-sy
 s-tème exis-tant et une ex-pé-rience
  []
 
 
-Overfull \hbox (3.42157pt too wide) in paragraph at lines 146--147
+Overfull \hbox (3.42157pt too wide) in paragraph at lines 175--176
 \T1/cmr/m/n/12 de ré-ponse avec schéma co-hé-rent, sup-port of-fline : fonc-tio
 n-ne-ment lo-cal avec Ol-lama. 
  []
 
 
-Overfull \hbox (1.9192pt too wide) in paragraph at lines 148--149
+Overfull \hbox (1.9192pt too wide) in paragraph at lines 177--178
 []\T1/cmr/bx/n/12 Sécurité et Confi-den-tia-lité \T1/cmr/m/n/12 : Pro-tec-tion 
 des don-nées par chif-fre-ment des échanges
  []
 
 
-Overfull \hbox (13.98425pt too wide) in paragraph at lines 173--174
+Overfull \hbox (13.98425pt too wide) in paragraph at lines 202--203
 []\T1/cmr/bx/n/12 Analyse Mul-ti-mo-dale des Er-reurs \T1/cmr/m/n/12 : Im-plé-m
 en-ter un sys-tème ca-pable d'in-ter-pré-ter
  []
 
 
 
-[7]
-Overfull \hbox (9.45633pt too wide) in paragraph at lines 179--180
+[5]
+Overfull \hbox (9.45633pt too wide) in paragraph at lines 208--209
 \T1/cmr/m/n/12 de pré-ci-sion (taux de dé-tec-tion, per-ti-nence des cor-rec-ti
 fs), et ef-fec-tuer un Bench-mark :
  []
 
 
 
-[8]
+[6]
 Chapitre 2.
 
-Overfull \hbox (1.5791pt too wide) in paragraph at lines 191--192
+Overfull \hbox (1.5791pt too wide) in paragraph at lines 220--221
 []\T1/cmr/m/n/12 Dans ce cha-pitre, nous pré-sen-tons une in-tro-duc-tion à la 
 mo-dé-li-sa-tion UML en rap-pe-lant
  []
 
 
-Overfull \hbox (5.94754pt too wide) in paragraph at lines 195--196
+Overfull \hbox (5.94754pt too wide) in paragraph at lines 224--225
 []\T1/cmr/m/n/12 Dans le cadre d'un pro-jet de dé-ve-lop-pe-ment in-for-ma-tiqu
 e, la mo-dé-li-sa-tion UML (Uni-fied
  []
 
 
 
-[9
+[7
 
 ]
-Overfull \hbox (3.0899pt too wide) in paragraph at lines 199--200
+Overfull \hbox (3.0899pt too wide) in paragraph at lines 228--229
 \T1/cmr/m/n/12 pé-ren-nité d'un pro-jet in-for-ma-tique, en ap-por-tant une vi-
 sion glo-bale et par-ta-gée du sys-tème. 
  []
 
 
-Overfull \hbox (0.75278pt too wide) in paragraph at lines 218--219
+Overfull \hbox (0.75278pt too wide) in paragraph at lines 247--248
 []\T1/cmr/bx/n/12 Système \T1/cmr/m/n/12 : le mo-teur de trai-te-ment in-tel-li
 -gent, res-pon-sable d'ana-ly-ser les ano-ma-lies,
  []
 
-<use-case.drawio.png, id=230, 472.76625pt x 482.80376pt>
+<use-case.drawio.png, id=254, 472.76625pt x 482.80376pt>
 File: use-case.drawio.png Graphic file (type png)
 <use use-case.drawio.png>
-Package pdftex.def Info: use-case.drawio.png  used on input line 227.
+Package pdftex.def Info: use-case.drawio.png  used on input line 256.
 (pdftex.def)             Requested size: 472.76509pt x 482.80258pt.
 
-Overfull \hbox (17.52098pt too wide) in paragraph at lines 227--228
+Overfull \hbox (17.52098pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
 
 
-[10]
+[8]
 
-[11
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.238 ...ection{Diagramme de sÃ©quences principal}
+l.267 ...ection{Diagramme de sÃ©quences principal}
                                                    <./use-case.drawio.png>]
-Overfull \hbox (10.83789pt too wide) in paragraph at lines 246--247
+Overfull \hbox (10.83789pt too wide) in paragraph at lines 275--276
 []\T1/cmr/bx/n/12 Agent AI \T1/cmr/m/n/12 : sert de chef d'or-chestre prin-ci-p
 al dans l'ar-chi-tec-ture. Ce ser-vice in-tel-li-gent
  []
 
 
-Overfull \hbox (23.06114pt too wide) in paragraph at lines 246--247
+Overfull \hbox (23.06114pt too wide) in paragraph at lines 275--276
 \T1/cmr/m/n/12 co-or-donne l'en-semble du pro-ces-sus d'ana-lyse. Il re-çoit le
 s re-quêtes brutes de l'uti-li-sa-teur,
  []
 
 
-Overfull \hbox (4.4409pt too wide) in paragraph at lines 246--247
+Overfull \hbox (4.4409pt too wide) in paragraph at lines 275--276
 \T1/cmr/m/n/12 les en-ri-chit en com-bi-nant plu-sieurs tech-niques avan-cées c
 omme le RAG et la mé-moire
  []
 
 
-Overfull \hbox (13.55087pt too wide) in paragraph at lines 250--251
+Overfull \hbox (13.55087pt too wide) in paragraph at lines 279--280
 []\T1/cmr/bx/n/12 RAG (Retrieval-Augmented Ge-ne-ra-tion) \T1/cmr/m/n/12 : ap-p
 orte une di-men-sion do-cu-men-taire
  []
 
 
-Overfull \hbox (31.14824pt too wide) in paragraph at lines 250--251
+Overfull \hbox (31.14824pt too wide) in paragraph at lines 279--280
 \T1/cmr/m/n/12 d'en-ri-chir les ré-ponses du LLM avec des connais-sances pro-ve
 -nant d'une base do-cu-men-taire
  []
 
 
 
-[12]
-<ds-ai-agent.drawio.png, id=245, 884.30376pt x 392.46625pt>
+[10]
+<ds-ai-agent.drawio.png, id=269, 884.30376pt x 392.46625pt>
 File: ds-ai-agent.drawio.png Graphic file (type png)
 <use ds-ai-agent.drawio.png>
-Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 262.
+Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 291.
 (pdftex.def)             Requested size: 455.24411pt x 202.0475pt.
 
-Overfull \hbox (3.71873pt too wide) in paragraph at lines 269--270
+Overfull \hbox (3.71873pt too wide) in paragraph at lines 298--299
 []\T1/cmr/m/n/12 Nous al-lons creu-ser un peu dans les com-po-sants du sys-tème
  RAG, voici une énu-mé-ra-tion
  []
 
 
-Overfull \hbox (3.24675pt too wide) in paragraph at lines 275--276
+Overfull \hbox (3.24675pt too wide) in paragraph at lines 304--305
 []\T1/cmr/bx/n/12 Tokenizer \T1/cmr/m/n/12 : Joue un rôle fon-da-men-tal dans l
 e pré-trai-te-ment du texte. Ce com-po-sant
  []
 
 
 
-[13
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.278 		
+l.307 		
          <./ds-ai-agent.drawio.png>]
-Overfull \hbox (7.59846pt too wide) in paragraph at lines 279--280
+Overfull \hbox (7.59846pt too wide) in paragraph at lines 308--309
 \T1/cmr/m/n/12 Cette struc-tu-ra-tion ri-gou-reuse est es-sen-tielle pour main-
 te-nir la co-hé-rence des don-nées
  []
 
 
-Overfull \hbox (9.32567pt too wide) in paragraph at lines 281--282
+Overfull \hbox (9.32567pt too wide) in paragraph at lines 310--311
 \T1/cmr/m/n/12 (em-bed-dings) qui cap-turent le sens pro-fond des conte-nus. De
 s mo-dèles sont spé-cia-li-sés
  []
 
 
-Overfull \hbox (78.45596pt too wide) in paragraph at lines 283--284
+Overfull \hbox (78.45596pt too wide) in paragraph at lines 312--313
 \T1/cmr/m/n/12 via l'Em-bed-ding-Mo-del, et gère le sto-ckage fi-nal dans l'Em-
 bed-ding-Store. L'Em-bed-ding-Sto-reIn-ges-tor
  []
 
 
-Overfull \hbox (24.95808pt too wide) in paragraph at lines 283--284
+Overfull \hbox (24.95808pt too wide) in paragraph at lines 312--313
 \T1/cmr/m/n/12 im-plé-mente sou-vent des stra-té-gies de trai-te-ment par lots 
 pour op-ti-mi-ser les per-for-mances
  []
 
 
-Overfull \hbox (0.81119pt too wide) in paragraph at lines 287--288
+Overfull \hbox (0.81119pt too wide) in paragraph at lines 316--317
 \T1/cmr/m/n/12 si-mi-la-rité vec-to-rielle (co-sine si-mi-la-rity par exemple) 
 et peut être fi-ne-ment pa-ra-mé-tré
  []
 
-<ds-rag.drawio.png, id=253, 1004.75375pt x 452.69125pt>
+<ds-rag.drawio.png, id=275, 1004.75375pt x 452.69125pt>
 File: ds-rag.drawio.png Graphic file (type png)
 <use ds-rag.drawio.png>
-Package pdftex.def Info: ds-rag.drawio.png  used on input line 295.
+Package pdftex.def Info: ds-rag.drawio.png  used on input line 324.
 (pdftex.def)             Requested size: 455.24411pt x 205.10449pt.
 
 
-[14]
+[12]
 
-[15
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.300 	\chapter
+l.329 	\chapter
                {RÃ©alisation} <./ds-rag.drawio.png>]
 Chapitre 3.
 
-Overfull \hbox (1.38881pt too wide) in paragraph at lines 302--303
+Overfull \hbox (1.38881pt too wide) in paragraph at lines 331--332
 \T1/cmr/m/n/12 ar-chi-tec-tu-raux se tra-duisent en une im-plé-men-ta-tion fonc
 -tion-nelle. Il dé-crit l'en-vi-ron-ne-ment
  []
 
-<java-logo.png, id=264, 401.5pt x 513.92pt>
+<java-logo.png, id=285, 401.5pt x 513.92pt>
 File: java-logo.png Graphic file (type png)
 <use java-logo.png>
-Package pdftex.def Info: java-logo.png  used on input line 318.
+Package pdftex.def Info: java-logo.png  used on input line 347.
 (pdftex.def)             Requested size: 68.28383pt x 87.40445pt.
 
-Underfull \hbox (badness 4217) in paragraph at lines 330--331
+Underfull \hbox (badness 4217) in paragraph at lines 359--360
 []\T1/cmr/m/n/12 Spring est un fra-me-work mo-du-laire pour Java, sim-pli-fiant
  le
  []
 
-<spring-logo.png, id=265, 1885.30435pt x 1886.08989pt>
+<spring-logo.png, id=286, 1885.30435pt x 1886.08989pt>
 File: spring-logo.png Graphic file (type png)
 <use spring-logo.png>
-Package pdftex.def Info: spring-logo.png  used on input line 336.
+Package pdftex.def Info: spring-logo.png  used on input line 365.
 (pdftex.def)             Requested size: 68.28383pt x 68.29346pt.
 
 
-[16
+[14
 
  <./java-logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 []\T1/cmr/m/n/12 Spring Boot étend Spring en four-nis-sant des confi-gu-ra-tion
 s
  []
 
-<spring-boot-logo.png, id=271, 301.125pt x 301.125pt>
+<spring-boot-logo.png, id=293, 301.125pt x 301.125pt>
 File: spring-boot-logo.png Graphic file (type png)
 <use spring-boot-logo.png>
-Package pdftex.def Info: spring-boot-logo.png  used on input line 352.
+Package pdftex.def Info: spring-boot-logo.png  used on input line 381.
 (pdftex.def)             Requested size: 68.28383pt x 68.28319pt.
 
-Underfull \hbox (badness 3009) in paragraph at lines 363--364
+Underfull \hbox (badness 3009) in paragraph at lines 392--393
 []\T1/cmr/m/n/12 LangChain4J est une bi-blio-thèque Java ins-pi-rée de Lang-Cha
 in
  []
 
-<langchain4j-logo.png, id=272, 534.99875pt x 552.0625pt>
+<langchain4j-logo.png, id=294, 534.99875pt x 552.0625pt>
 File: langchain4j-logo.png Graphic file (type png)
 <use langchain4j-logo.png>
-Package pdftex.def Info: langchain4j-logo.png  used on input line 369.
+Package pdftex.def Info: langchain4j-logo.png  used on input line 398.
 (pdftex.def)             Requested size: 68.28383pt x 70.45653pt.
-<apache-commons-logo.png, id=273, 616.3025pt x 149.55875pt>
+<apache-commons-logo.png, id=295, 616.3025pt x 149.55875pt>
 File: apache-commons-logo.png Graphic file (type png)
 <use apache-commons-logo.png>
-Package pdftex.def Info: apache-commons-logo.png  used on input line 387.
+Package pdftex.def Info: apache-commons-logo.png  used on input line 416.
 (pdftex.def)             Requested size: 68.28383pt x 16.57018pt.
-<postgresql-logo.png, id=274, 730.73pt x 752.8125pt>
+<postgresql-logo.png, id=296, 730.73pt x 752.8125pt>
 File: postgresql-logo.png Graphic file (type png)
 <use postgresql-logo.png>
-Package pdftex.def Info: postgresql-logo.png  used on input line 405.
+Package pdftex.def Info: postgresql-logo.png  used on input line 434.
 (pdftex.def)             Requested size: 68.28383pt x 70.34625pt.
 
 
-[17 <./spring-logo.png> <./spring-boot-logo.png> <./langchain4j-logo.png> <./ap
+[15 <./spring-logo.png> <./spring-boot-logo.png> <./langchain4j-logo.png> <./ap
 ache-commons-logo.png>]
-<ollama-logo.png, id=283, 1518.67375pt x 2007.5pt>
+<ollama-logo.png, id=305, 1518.67375pt x 2007.5pt>
 File: ollama-logo.png Graphic file (type png)
 <use ollama-logo.png>
-Package pdftex.def Info: ollama-logo.png  used on input line 423.
+Package pdftex.def Info: ollama-logo.png  used on input line 452.
 (pdftex.def)             Requested size: 68.28383pt x 90.2417pt.
-<maven-logo.png, id=284, 1173.38374pt x 305.14pt>
+<maven-logo.png, id=306, 1173.38374pt x 305.14pt>
 File: maven-logo.png Graphic file (type png)
 <use maven-logo.png>
-Package pdftex.def Info: maven-logo.png  used on input line 439.
+Package pdftex.def Info: maven-logo.png  used on input line 468.
 (pdftex.def)             Requested size: 68.28383pt x 17.75352pt.
-<intellij-logo.png, id=285, 803.0pt x 803.0pt>
+<intellij-logo.png, id=307, 803.0pt x 803.0pt>
 File: intellij-logo.png Graphic file (type png)
 <use intellij-logo.png>
-Package pdftex.def Info: intellij-logo.png  used on input line 455.
+Package pdftex.def Info: intellij-logo.png  used on input line 484.
 (pdftex.def)             Requested size: 68.28383pt x 68.27248pt.
-<git-logo.png, id=286, 513.92pt x 513.92pt>
+<git-logo.png, id=308, 513.92pt x 513.92pt>
 File: git-logo.png Graphic file (type png)
 <use git-logo.png>
-Package pdftex.def Info: git-logo.png  used on input line 471.
+Package pdftex.def Info: git-logo.png  used on input line 500.
 (pdftex.def)             Requested size: 68.28383pt x 68.27835pt.
 
 
-[18 <./postgresql-logo.png> <./ollama-logo.png> <./maven-logo.png> <./intellij-
+[16 <./postgresql-logo.png> <./ollama-logo.png> <./maven-logo.png> <./intellij-
 logo.png>]
-<illustration-graphique.drawio.png, id=295, 810.02625pt x 733.74126pt>
+Overfull \hbox (6.13205pt too wide) in paragraph at lines 514--515
+[]\T1/cmr/m/n/12 Spring Boot per-met de struc-tu-rer l'ap-pli-ca-tion de ma-niè
+re mo-du-laire, en sé-pa-rant
+ []
+
+
+Overfull \hbox (36.05234pt too wide) in paragraph at lines 514--515
+\T1/cmr/m/n/12 clai-re-ment les res-pon-sa-bi-li-tés (contrô-leurs, ser-vices, 
+confi-gu-ra-tion, etc.). Cette or-ga-ni-sa-tion
+ []
+
+
+Overfull \hbox (10.76569pt too wide) in paragraph at lines 516--517
+[]\T1/cmr/m/n/12 L'application est éga-le-ment por-table, dans la me-sure où el
+le peut être condi-tion-née
+ []
+
+
+Overfull \hbox (3.19121pt too wide) in paragraph at lines 518--519
+\T1/cmr/m/n/12 na-tu-rel-le-ment avec des bi-blio-thèques telles que Lang-Chain
+4j ou des bases de don-nées
+ []
+
+
+Overfull \hbox (29.0404pt too wide) in paragraph at lines 526--527
+[]\T1/cmr/m/n/12 LangChain4j fa-ci-lite la mise en ÷uvre d'un mé-ca-nisme de RA
+G (Retrieval-Augmented
+ []
+
+
+
+[17 <./git-logo.png>]
+Overfull \hbox (15.5257pt too wide) in paragraph at lines 528--529
+\T1/cmr/m/n/12 in-ter-faces. Elle offre éga-le-ment un haut ni-veau de confi-gu
+-ra-bi-lité, per-met-tant d'adap-ter
+ []
+
+
+Overfull \hbox (13.93282pt too wide) in paragraph at lines 534--535
+[]\T1/cmr/m/n/12 Ce choix pré-sente plu-sieurs avan-tages : tout d'abord, il re
+nd l'ap-pli-ca-tion au-to-nome
+ []
+
+
+Overfull \hbox (15.03828pt too wide) in paragraph at lines 534--535
+\T1/cmr/m/n/12 n'est re-quis. Cela per-met un dé-ploie-ment sur des ma-chines l
+o-cales ou en en-vi-ron-ne-ment
+ []
+
+
+Overfull \hbox (29.08896pt too wide) in paragraph at lines 536--537
+[]\T1/cmr/m/n/12 Grâce à une confi-gu-ra-tion cen-tra-li-sée (adresse du ser-ve
+ur, mo-dèle uti-lisé, tem-pé-ra-ture,
+ []
+
+
+Overfull \hbox (4.72678pt too wide) in paragraph at lines 536--537
+\T1/cmr/m/n/12 se fait via des beans Spring ins-tan-ciés dy-na-mi-que-ment dans
+ la classe de confi-gu-ra-tion
+ []
+
+
+Overfull \hbox (8.96896pt too wide) in paragraph at lines 538--539
+\T1/cmr/m/n/12 de ré-ponses contex-tua-li-sées et per-ti-nentes, en te-nant com
+pte des do-cu-ments ré-cu-pé-rés
+ []
+
+
+Overfull \hbox (6.42358pt too wide) in paragraph at lines 540--541
+\T1/cmr/m/n/12 avec une orien-ta-tion spé-ci-fique vers le sto-ckage vec-to-rie
+l, dans le cadre de l'in-dexa-tion
+ []
+
+
+Overfull \hbox (17.98615pt too wide) in paragraph at lines 540--541
+\T1/cmr/m/n/12 et de la re-cherche de do-cu-ments sé-man-tiques. Grâce à l'ex-t
+en-sion pg-vec-tor, Post-greSQL
+ []
+
+
+Overfull \hbox (3.77425pt too wide) in paragraph at lines 542--543
+\T1/cmr/m/n/12 vec-teurs is-sus des mo-dèles d'em-bed-ding (ex. Ol-la-maEm-bed-
+ding-Mo-del), et per-mettre
+ []
+
+
+
+[18]
+<illustration-graphique.drawio.png, id=326, 810.02625pt x 733.74126pt>
 File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
-481.
+554.
 (pdftex.def)             Requested size: 455.24411pt x 412.38136pt.
 
-Overfull \hbox (2.0763pt too wide) in paragraph at lines 492--493
+Overfull \hbox (2.0763pt too wide) in paragraph at lines 565--566
 \T1/cmr/m/n/12 Dans un pre-mier temps, un pro-to-type fonc-tion-nel a été réa-l
 isé afin de va-li-der les fon-de-ments
  []
@@ -889,12 +1022,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.493 	\begin{itemize}
-                       <./git-logo.png> <./illustration-graphique.drawio.png>]
-<test-rag.png, id=304, 670.00313pt x 92.345pt>
+l.566 	\begin{itemize}
+                       <./illustration-graphique.drawio.png>]
+<test-rag.png, id=332, 670.00313pt x 92.345pt>
 File: test-rag.png Graphic file (type png)
 <use test-rag.png>
-Package pdftex.def Info: test-rag.png  used on input line 503.
+Package pdftex.def Info: test-rag.png  used on input line 576.
 (pdftex.def)             Requested size: 455.24411pt x 62.74443pt.
 
 
@@ -903,7 +1036,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.510 \end{document}
+l.583 \end{document}
                     } <./test-rag.png>] (rapport provisoire.aux)
  ***********
 LaTeX2e <2025-06-01>
@@ -913,26 +1046,26 @@ Package rerunfilecheck Info: File `"rapport provisoire".out' has not changed.
 (rerunfilecheck)             Checksum: 95B8ED3EB0AA0A59C6E32521A94B888A;5478.
  ) 
 Here is how much of TeX's memory you used:
- 12535 strings out of 468225
- 203855 string characters out of 5427165
- 638640 words of memory out of 5000000
- 40840 multiletter control sequences out of 15000+600000
+ 12558 strings out of 468225
+ 204425 string characters out of 5427165
+ 632700 words of memory out of 5000000
+ 40853 multiletter control sequences out of 15000+600000
  636322 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,79p,1052b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecbx1440.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Electro_Laaroussi\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Electro_Laar
-oussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
+ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Electro_Laaroussi\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Electro_Laar
+oussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\
 Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/
 jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/Electro_Laaroussi/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "rapport provisoire.pdf" (20 pages, 1907133 bytes).
+Output written on "rapport provisoire.pdf" (25 pages, 1919259 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,8 +9,8 @@
 \usepackage{titlesec}
 \usepackage{xcolor}
 \geometry{margin=2.5cm}
-\usepackage{array}   % Pour personnaliser les colonnes
-\usepackage[none]{hyphenat} % dans le préambule
+\usepackage{array}
+\usepackage[none]{hyphenat}
 \usepackage{float}
 \usepackage{makecell}
 
@@ -23,8 +23,37 @@
 {\normalfont\Large\bfseries}{\thesection}{1em}{}
 
 \begin{document}
+	\pagestyle{empty} 
+	\pagenumbering{gobble}  % supprime la numérotation complètement
+	
+	\chapter*{Liste des abréviations}
+	
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Abréviation} & \textbf{Désignation} \\
+			\hline
+			RAG & Retrieval-Augmented Generation \\
+			\hline
+		\end{tabular}
+		\label{tab:liste-abréviations}
+	\end{table}
+	
+	\thispagestyle{empty}
+	
+	\listoffigures
+	\thispagestyle{empty}   % supprime le numéro de page de cette page
+	
+	\listoftables
+	\thispagestyle{empty}
 	
 	\tableofcontents
+	\thispagestyle{empty}
+	
+	\clearpage
+	\pagestyle{plain}
+	\pagenumbering{arabic}
 	
 	\chapter{Contexte du Projet}
 	
@@ -476,10 +505,54 @@
 	
 	\section{Architecture technique du projet}
 	
+	Le projet repose sur une architecture modulaire et évolutive, construite autour des meilleures pratiques du développement Java moderne, de l'IA générative et de l’ingénierie logicielle. Il s’appuie sur les technologies suivantes :
+	
+	\begin{itemize}
+		
+		\item \textbf{Spring Boot} : Est le framework retenu pour le développement de la couche back-end. Il s’agit d’un choix stratégique largement justifié par les besoins du projet en termes de performance, de maintenabilité et d’intégration avec des composants d’intelligence artificielle.
+		
+		Spring Boot permet de structurer l’application de manière modulaire, en séparant clairement les responsabilités (contrôleurs, services, configuration, etc.). Cette organisation favorise une bonne lisibilité du code et facilite son évolution.
+		
+		L’application est également portable, dans la mesure où elle peut être conditionnée sous forme de JAR exécutable et déployée facilement sur tout environnement compatible Java, sans dépendance à un serveur externe.
+		
+		Un autre atout majeur est le caractère évolutif de Spring Boot : il s’intègre naturellement avec des bibliothèques telles que LangChain4j ou des bases de données comme PostgreSQL, ce qui permet d’ajouter de nouvelles fonctionnalités (IA, recherche vectorielle, mémoire contextuelle) sans remise en cause de l’existant.
+		
+		Le framework est aussi testable : il propose des outils natifs pour la réalisation de tests unitaires et d’intégration, garantissant la qualité et la stabilité du code produit.
+		
+		Enfin, Spring Boot est hautement extensible. Si le projet venait à croître en complexité, il serait tout à fait envisageable de faire évoluer l’architecture vers un modèle microservices avec des outils comme Spring Cloud.
+		
+		\item \textbf{LangChain4j} : Pour permettre l’analyse intelligente des erreurs à l’aide d’un modèle de langage (LLM), le projet s’appuie sur la bibliothèque LangChain4j, une adaptation Java du framework LangChain initialement développé pour Python. Ce composant joue un rôle central dans l’intégration des fonctionnalités d’intelligence artificielle générative.
+		
+		LangChain4j facilite la mise en œuvre d’un mécanisme de RAG (Retrieval-Augmented Generation), en combinant génération de texte via un LLM et récupération de documents pertinents à partir d’une base vectorielle. Il s’intègre naturellement avec un modèles de langage, et avec des composants tels que la mémoire de conversation, le modèle d’embedding et le store d’embeddings.
+		
+		L’utilisation de LangChain4j rend l’application extensible et modulaire, car ses composants (LLM, mémoire, embeddings, etc.) sont interchangeables via des interfaces. Elle offre également un haut niveau de configurabilité, permettant d’adapter dynamiquement les modèles utilisés, la taille de la mémoire contextuelle ou encore les critères de pertinence documentaire.
+		
+		Enfin, son intégration avec Spring Boot via des beans injectables simplifie grandement sa mise en œuvre dans l’architecture globale du projet. Cela permet d’enrichir les traitements métier avec une couche d’IA tout en conservant la lisibilité et la testabilité du code.
+		
+		\item \textbf{Ollama} : Pour exécuter les modèles de langage en local sans dépendre de services cloud externes, le projet intègre Ollama, une plateforme légère permettant de servir des LLM open-source tels que Mistral, Llama3 ou Qwen qui offre des versions multimodales. Ollama agit comme un point d’accès HTTP local à un modèle de génération de texte, que LangChain4j peut interroger de manière transparente.
+		
+		Ce choix présente plusieurs avantages : tout d’abord, il rend l’application autonome et portable, car aucun appel à une API cloud (comme OpenAI ou Hugging Face) n’est requis. Cela permet un déploiement sur des machines locales ou en environnement isolé (on-premise), tout en respectant les contraintes de confidentialité des données.
+		
+		Grâce à une configuration centralisée (adresse du serveur, modèle utilisé, température, etc.), Ollama est également hautement configurable. Son intégration dans le projet se fait via des beans Spring instanciés dynamiquement dans la classe de configuration (AiConfig), ce qui permet d’adapter ou changer le modèle utilisé sans modifier la logique métier.
+		
+		Enfin, en travaillant de concert avec LangChain4j, Ollama permet la génération de réponses contextualisées et pertinentes, en tenant compte des documents récupérés et des interactions passées. Cela renforce la capacité de l'application à fournir des analyses d'erreurs enrichies, précises et directement exploitables.
+		
+		\item \textbf{PostgreSQL} : Utilisé comme système de gestion de base de données relationnelle, avec une orientation spécifique vers le stockage vectoriel, dans le cadre de l’indexation et de la recherche de documents sémantiques. Grâce à l’extension pgvector, PostgreSQL devient capable de stocker des vecteurs d’embedding et d’effectuer des recherches de similarité, essentielles dans une approche RAG (Retrieval-Augmented Generation).
+		
+		Le choix de PostgreSQL repose sur plusieurs critères clés : sa fiabilité, sa scalabilité et sa maturité en production. En plus de gérer des données relationnelles classiques (logs, utilisateurs, paramètres…), il peut aussi indexer efficacement des vecteurs issus des modèles d’embedding (ex. OllamaEmbeddingModel), et permettre des requêtes de type nearest neighbor search.
+		
+		Son intégration avec Spring Boot est fluide grâce à JPA ou JDBC, et son usage dans ce projet est évolutif : dans un premier temps, les embeddings sont stockés en mémoire (InMemoryEmbeddingStore), mais la bascule vers PostgreSQL permettra une persistance et une scalabilité bien supérieures, tout en conservant une interface compatible avec les composants LangChain4j.
+		
+		Ainsi, PostgreSQL joue un rôle fondamental dans la stratégie d’enrichissement contextuel des requêtes utilisateur, en permettant à l’IA de s’appuyer sur des documents pertinents stockés localement de façon fiable et interrogeable.
+		
+	\end{itemize}
+	
+	La figure 3.1 illustre de manière synthétique les interactions entre les principaux composants techniques de l’architecture mise en place dans le cadre de ce projet.
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{illustration-graphique.drawio.png}
-		\caption{Diagramme d'architecture}
+		\caption{\textit{Diagramme d'architecture technique}}
 		\label{fig:illustration-graphique}
 	\end{figure}
 	
@@ -501,7 +574,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth]{test-rag.png}
-		\caption{Test du RAG}
+		\caption{\textit{Test du RAG}}
 		\label{fig:test-rag}
 	\end{figure}
 	
