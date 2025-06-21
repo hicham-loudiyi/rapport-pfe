@@ -39,5 +39,8 @@
 \contentsline {subsubsection}{IntelliJ IDEA}{16}{subsection.3.1.5}%
 \contentsline {subsubsection}{Git}{17}{subsection.3.1.5}%
 \contentsline {section}{\numberline {3.2}Architecture technique du projet}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Premier prototype}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Introduction}{20}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.3}Bonnes pratiques appliquées du développement Java}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Utilisation de Bibliothèques Matures : Apache Commons}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Approches de parcours de collections en Java}{21}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Premier prototype}{23}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Introduction}{23}{subsection.3.4.1}%

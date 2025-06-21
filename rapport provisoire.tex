@@ -34,7 +34,23 @@
 			\hline
 			\textbf{Abréviation} & \textbf{Désignation} \\
 			\hline
+			API & Application Programming Interface \\
+			\hline
+			HTTP & Hypertext Transfer Protocol \\
+			\hline
+			IDE & Integrated Development Environment \\
+			\hline
+			JPA & Java Persistence API \\
+			\hline
+			LLM & Large Language Model \\
+			\hline
+			PDF & Portable Document Format \\
+			\hline
 			RAG & Retrieval-Augmented Generation \\
+			\hline
+			SARL & Société À Responsabilité Limitée \\
+			\hline
+			UML & Unified Modeling Language \\
 			\hline
 		\end{tabular}
 		\label{tab:liste-abréviations}
@@ -309,7 +325,7 @@
 		
 		\item \textbf{EmbeddingModel} : Est au cœur de la transformation sémantique du système. Ce modèle sophistiqué convertit le texte en représentations vectorielles denses (embeddings) qui capturent le sens profond des contenus. Des modèles sont spécialisés dans cette tâche produisent des vecteurs où la similarité spatiale correspond à la similarité sémantique. La qualité de l'EmbeddingModel détermine directement la capacité du système à retrouver des documents pertinents pour une requête donnée.
 		
-		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents. Ce composant supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
+		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents. Ce composant supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
 		
 		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG. Cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore doit supporter des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
 		
@@ -556,7 +572,100 @@
 		\label{fig:illustration-graphique}
 	\end{figure}
 	
+	\section{Bonnes pratiques appliquées du développement Java}
 	
+	Dans le développement logiciel, l'adoption de bonnes pratiques de codage est essentielle pour garantir la robustesse, la maintenabilité et l'évolutivité des applications. Un code bien structuré, avec une logique claire et une réduction des redondances, facilite non seulement les futures modifications, mais améliore aussi la collaboration entre développeurs. Cette section aborde des principes clés pour optimiser l'écriture du code, en mettant l'accent sur des méthodes qui en améliorent la qualité tout en réduisant les risques d'erreurs.
+	
+	\subsection{Utilisation de Bibliothèques Matures : Apache Commons}
+	
+	Plutôt que de réinventer la roue, il est recommandé d’utiliser des bibliothèques robustes comme Apache Commons, qui fournit des utilitaires optimisés pour plusieurs opérations telles que la manipulation de collections, les opérations sur les chaînes, et les validations.
+	
+	Pour mettre en lumière les utilisations de ces utilitaires dans notre projet, prenons par exemple la méthode estimateTokenCountInText(String text) de la classe TokenizerMyAppImpl, dont la figure 3.2 montre une implémentation classique.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics{before-string-utils.png}}
+		\caption{\textit{Implémentation sans utiliser Apache Commons}}
+		\label{fig:before-string-utils}
+	\end{figure}
+	
+	Cette approche, bien que fonctionnelle, présente plusieurs limitations : la combinaison de deux vérifications dans une même condition, la duplication de cette logique à de nombreux endroits du code, et le risque potentiel de NullPointerException.
+	
+	L'adoption d'une nouvelle implémentation exploitant la bibliothèque Apache Commons est montrée dans la figure 3.3.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics{after-string-utils.png}}
+		\caption{\textit{Implémentation en utilisant Apache Commons}}
+		\label{fig:after-string-utils}
+	\end{figure}
+	
+	La méthode isBlank() de la classe StringUtils retourne true dans trois cas : si text est null, ou une chaine de caractères vides, ou une chaine de caractères ne contenant que des espaces blancs, Ce qui donne plus de robustesse au projet, en évitant les NullPointerException sans besoin de vérifier null explicitement, améliore la lisibilité en remplaçant une condition complexe par un seul appel clair, et garantit un comportement uniforme dans tout le projet.
+	
+	\subsection{Approches de parcours de collections en Java}
+	
+	Durant le développement, j'ai été amené à manipuler des collections de données. Plusieurs approches s'offraient alors à moi, chacune présentant des caractéristiques distinctes :
+	
+	\begin{itemize}
+		
+		\item \textbf{La boucle for traditionnelle} : Approche historique de Java, elle se base sur un index numérique. Bien que simple conceptuellement, elle montre plusieurs limitations : une syntaxe verbeuse nécessitant la déclaration d'un compteur, un risque d'erreurs d'indice (IndexOutOfBoundsException),  une inadaptation aux structures non indexées comme les Set, et une difficulté à maintenir pour des traitements complexes.
+		
+		\item \textbf{La boucle for-each} : Introduite dans Java 5, elle simplifie le parcours, en offrant une syntaxe plus concise et plus lisible, et en éliminant le risque d'erreurs d'indice, cependant elle ne permet pas de modification concurrente, en plus d'être limitée à un parcours séquentiel simple.
+		
+		\item \textbf{L'Iterator} : Fournit un contrôle fin sur le parcours, en effet, il permet la suppression d'éléments (méthode remove()), et fournit une interface standardisée pour toutes les collections. Par contre, il requiert une gestion manuelle fastidieuse, et le code produit est peu lisible pour des opérations complexes.
+		
+		\item \textbf{Les Streams (approche retenue)} :  Les Streams sont une abstraction introduite avec Java 8 qui permettent de traiter des collections de données de façon fonctionnelle, fluide et lisible. Un Stream représente une séquence d’éléments que l’on peut traiter (filtrer, transformer, agréger, etc.) sans modifier la source d’origine (par exemple, une List ou un Set). Cette approche moderne présente des avantages déterminants : une syntaxe déclarative exprimant l'intention métier, un chaînage des opérations, une possibilité de parallélisation transparente, et une meilleure maintenabilité du code.
+		
+	\end{itemize}
+	
+	Le tableau 3.1 expose une comparaison entre ces approches selon différents critères.
+	
+	\begin{table}[H]
+		\centering
+		\caption{\textit{Comparaison des méthodes de parcours en Java}}
+		\begin{tabular}{|l|c|c|c|c|}
+			\hline
+			\textbf{Critère} & \textbf{for} & \textbf{for-each} & \textbf{Iterator} & \textbf{Stream} \\
+			\hline
+			\makecell[l]{Modification pendant \\ itération}
+			 & Risqué & Interdit & remove() possible & Interdit \\
+			\hline
+			Accès à l'index & Oui & Non & Non & Non \\
+			\hline
+			Lisibilité & Moyenne & Bonne & Faible & Excellente \\
+			\hline
+			Collections supportées & List/Array & Iterable & Collection & Collection + Infini \\
+			\hline
+			Performance & Optimale & Légère baisse & Légère baisse & Variable \\
+			\hline
+			Filtrage/Transformation & Manuel & Manuel & Manuel & Intégré \\
+			\hline
+			Parallélisation & Difficile & Impossible & Impossible & Native \\
+			\hline
+			Gestion null & Manuel & Manuel & Manuel & Optional \\
+			\hline
+			Cas typique & Simple & Séquentiel & Suppression & Data processing \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	Prenons un exemple de notre projet, la méthode \\ estimateTokenCountInTools(Iterable<Object> objectsWithTools) de la classe TokenizerMyAppImpl a été implémentée dans un premier temps en utilisant une boucle foreach, comme le montre la figure 3.4.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics{before-stream.png}}
+		\caption{\textit{Implémentation sans utiliser les Streams}}
+		\label{fig:before-stream}
+	\end{figure}
+	
+	Une évolution de cette implémentation utilisant les Streams ainsi que la bibliothèque Apache Commons est illustrée dans la figure 3.5.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics{after-stream.png}}
+		\caption{\textit{Implémentation en utilisant les Streams}}
+		\label{fig:after-stream}
+	\end{figure}
 	
 	\section{Premier prototype}
 	

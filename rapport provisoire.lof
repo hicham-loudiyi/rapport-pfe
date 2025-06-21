@@ -8,4 +8,8 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{13}{figure.2.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Diagramme d'architecture technique}}}{19}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Test du RAG}}}{20}{figure.3.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{20}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{20}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{22}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{23}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Test du RAG}}}{23}{figure.3.6}%
