@@ -12,4 +12,6 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{20}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{22}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{23}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Test du RAG}}}{23}{figure.3.6}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{24}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{24}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Test du RAG}}}{25}{figure.3.8}%
