@@ -54,7 +54,11 @@
 			\hline
 			SQL & Structured Query Language \\
 			\hline
+			SRP & Single Responsibility Principle \\
+			\hline
 			UML & Unified Modeling Language \\
+			\hline
+			URL & Uniform Resource Locator \\
 			\hline
 		\end{tabular}
 		\label{tab:liste-abréviations}
@@ -290,13 +294,29 @@
 		
 		\item \textbf{LLM (Large Language Model)} : Est un modèle d'intelligence artificielle entraîné sur des volumes massifs de données textuelles, capable de comprendre, générer et manipuler du langage naturel de manière contextuelle. Basé sur des architectures de deep learning (comme les transformers), il excelle dans des tâches variées (réponse aux questions, traduction, synthèse de texte, etc.) en prédisant des séquences de mots probabilistes. Contrairement aux systèmes traditionnels, un LLM ne suit pas de règles prédéfinies, mais apprend des motifs linguistiques à partir de ses données d'entraînement.
 		
-		\item \textbf{RAG (Retrieval-Augmented Generation)} : apporte une dimension documentaire aux analyses. Composé de trois éléments principaux - un modèle d'embedding, un stockage vectoriel et un moteur de recherche - ce pipeline sophistiqué permet d'enrichir les réponses du LLM avec des connaissances provenant d'une base documentaire technique. Le processus transforme d'abord les requêtes et documents en vecteurs, puis effectue des recherches de similarité dans le stockage vectoriel avant d'injecter les documents pertinents dans le contexte du LLM.
+		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une architecture hybride combinant un système de recherche d'information (retrieval) et un modèle de génération de langage (LLM). Contrairement à un LLM standard qui repose uniquement sur ses connaissances internes, le RAG enrichit ses réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. son plus grand avantage est la mise à jour sans réentraînement du LLM, via la base de connaissances.
 		
-		\item \textbf{Agent AI} : sert de chef d'orchestre principal dans l'architecture. Ce service intelligent coordonne l'ensemble du processus d'analyse. Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
+		\item \textbf{Agent AI} : Sert de chef d'orchestre principal dans l'architecture. C'est un service intelligent qui coordonne l'ensemble du processus d'analyse. Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
 		
-		\item \textbf{ChatModel} : incarne le moteur de génération de langage naturel. Ce composant spécifique, configuré pour utiliser des modèles locaux ou externes, transforme les prompts structurés en analyses techniques détaillées.
+		Parmi les atouts majeurs d'un Agent AI, sa capacité à configurer dynamiquement le System Message (ou instruction système). Cette fonctionnalité permet de cadrer précisément le comportement du modèle, par exemple en définissant son rôle, et en contrôlant finement son style (ton, format, restrictions).
 		
-		\item \textbf{ChatMemory} : joue un rôle crucial dans la maintien du contexte conversationnel. Implémentée comme une mémoire à fenêtre glissante, elle conserve les N dernières interactions de chaque session utilisateur, identifiée par un MemoryId unique. Cette mémoire permet au LLM de maintenir une cohérence dans les échanges et de se souvenir des points clés abordés précédemment dans la conversation, essentiel pour les analyses techniques itératives où l'utilisateur affine progressivement sa requête.
+		\item \textbf{ChatModel} : Incarne le moteur de génération de langage naturel. Ce composant spécifique, configuré pour utiliser des modèles locaux ou externes, transforme les prompts structurés en analyses techniques détaillées.
+		
+		Le ChatModel permet de configurer plusieurs propriétés du LLM, citons les plus importantes :
+		
+		\begin{itemize}
+			
+			\item L'URL de base étant le point d'accès à l'API du modèle
+			
+			\item Le nom du modèle de langage à utiliser
+			
+			\item La Température, une propriété qui détermine le degré de créativité du LLM à formuler ses réponses, 0 étant le plus précis, et 1 le plus créatif.
+			
+			\item Le Timeout, qui est le délai maximal de réponse avant échéance.
+			
+		\end{itemize}
+		
+		\item \textbf{ChatMemory} : est un composant logiciel conçu pour conserver l’historique des échanges dans un système conversationnel (comme un chatbot), permettant ainsi de maintenir le contexte entre les messages et d’offrir des réponses plus cohérentes et personnalisées.
 		
 	\end{itemize}
 	
@@ -311,13 +331,13 @@
 	
 	\subsection{Diagramme de séquences spécifique : RAG}
 	
-	Nous allons creuser un peu dans les composants du système RAG, voici une énumération de ces composants avec chacun son rôle :
+	Nous allons creuser un peu dans les composants du système RAG, voici une énumération de ses composants avec chacun son rôle :
 	
 	\begin{itemize}
 		
-		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant de la documentation technique, pages web de référence, extraits de bases de données, ou tout autre support contenant des informations pertinentes. Le système doit être capable de traiter ces ressources hétérogènes, qu'elles proviennent de systèmes internes ou de sources externes. La qualité et l'actualité des resources déterminent en grande partie l'efficacité finale du système RAG.
+		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
 		
-		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, qui peuvent correspondre à des mots entiers, des sous-mots ou même des caractères individuels selon la méthode employée. Des algorithmes avancés comme ceux proposés par HuggingFace permettent une tokenisation optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation est cruciale car elle influence directement la qualité des embeddings générés ultérieurement.
+		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Des algorithmes avancés comme ceux proposés par HuggingFace permettent une  optimale qui préserve le sens tout en gérant les particularités linguistiques. La \textit{tokenisation} joue un rôle crucialecar elle influe directement la qualité des embeddings générés ultérieurement.
 		
 		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés. Ce composant doit comprendre divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extraire le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
 		
@@ -699,7 +719,7 @@
 	
 	La factorisation du code consiste à regrouper dans des méthodes ou classes dédiées les portions de logique qui se répètent à plusieurs endroits du programme. Cette pratique s'inscrit dans les bonnes pratiques du développement logiciel, notamment le principe \textit{DRY} (\textit{Don't Repeat Yourself}), qui préconise d'éviter les duplications de code.
 	
-	Factoriser améliore la lisibilité, la maintenabilité, et réduit les risques d'erreurs en centralisant les modifications à un seul endroit. Cela permet également de clarifier les responsabilités des différentes classes, en accord avec le principe de responsabilité unique (\textit{Single Responsibility Principle}) du modèle SOLID.
+	Factoriser améliore la lisibilité, la maintenabilité, et réduit les risques d'erreurs en centralisant les modifications à un seul endroit. Cela permet également de clarifier les responsabilités des différentes classes, en accord avec le principe de responsabilité unique \textit{SRP} (\textit{Single Responsibility Principle}) du modèle SOLID.
 	
 	La figure \ref{fig:before-factorisation} montre une portion de code répétée avant factorisation.
 	
@@ -719,31 +739,66 @@
 		\label{fig:after-factorisation}
 	\end{figure}
 	
-	La logique répétée est regroupée dans la méthode utilitaire \verb|countTokensInIterable|, puis réutilisée avec des appels dans les autres méthodes.
+	La logique répétée est regroupée dans la méthode utilitaire \\ \verb|countTokensInIterable(Iterable<T> iterable, ToIntFunction<T> tokenCounter)|, puis réutilisée en appelant cette méthode au besoin.
 	
 	On constate une nette amélioration de la clarté du code, les règles de validation sont centralisées dans une méthode dédiée, facilitant ainsi leur réutilisation et leur évolution future.
 	
+	\subsection{Utilisation d'une classe de configuration}
 	
+	L’intégration d’une classe de configuration dans ce projet est cruciale pour standardiser et optimiser la gestion des paramètres techniques et métiers. Par exemple, des valeurs comme le nom du modèle de language, sa température, le maximum de messages du ChatMemory, des paramètres du Retriever, la taille maximale des images uploadées et bien d'autres, ont été externalisées dans une classe dédiée que nous avons nommée \verb|ConfigurationPropertyValue| et injectées - soit depuis un fichier de configuration comme \verb|application.properties|, ou bien depuis une base de données - via l'annotation \verb|@Value|. De plus, cette dernière offre la possibilité de définir des valeurs par défaut en cas d'absence de valeurs à injecter.
 	
-	
-	\section{Premier prototype}
-	
-	\subsection{Introduction}
-	
-	Pour atteindre cet objectif ambitieux, nous avons suivi une approche incrémentale. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. Ce prototype est une application basée sur un agent intelligent exploitant une architecture RAG (Retrieval-Augmented Generation), capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni. Cette première version a permis de :
-	\begin{itemize}
-		\item comprendre le fonctionnement du framework LangChain4j ;
-		\item tester l’intégration avec le LLM Ollama ;
-		\item valider le concept de récupération de contexte à partir de documents externes.
-	\end{itemize}
-	
-	Pour tester ce prototype, nous avons fourni un fichier PDF, son contenu est une lettre de recommandation pour une étudiante appelée Nour, on a ensuite envoyé une question à propos de cette étudiante à l'agent AI, en utilisant un contrôleur web :
+	La figure \ref{fig:configuration-property-value} montre un morceau de la classe \verb|ConfigurationPropertyValue|.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{test-rag.png}
-		\caption{\textit{Test du RAG}}
+		\fbox{\includegraphics[width=0.7\textwidth]{configuration-property-value.png}}
+		\caption{\textit{Un morceau de la classe de configuration}}
+		\label{fig:configuration-property-value}
+	\end{figure}
+	
+	Pour récupérer ces valeurs dans une autre classe, il suffit d'y injecter un bean de la classe de configuration, comme le montre l'exemple dans la figure \ref{fig:using-configuration-property-value}.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.9\textwidth]{using-configuration-property-value.png}}
+		\caption{\textit{Utilisation de la classe de configuration}}
+		\label{fig:using-configuration-property-value}
+	\end{figure}
+	
+	Avec cette approche on peut ajuster les paramètres techniques sans toucher au code métier et sans recompilation, on gagne plus de flexibilité en adaptant les paramètres à l'environnement (dev, test, prod) via des profils Spring, et on respecte l'un des principe SOLID, qui est la séparation des responsabilités, puisque le service se concentre sur la logique métier, tandis que la configuration technique est externalisée.
+	
+	\section{Captures d'écran}
+	
+	
+	
+	\subsection{Premier prototype}
+	
+	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. Ce prototype est une simple application basée sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni. Cette première version a permis de comprendre le fonctionnement du framework LangChain4j, de tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
+	
+	Pour tester ce prototype, nous avons fourni un fichier PDF, son contenu est une lettre de recommandation pour une étudiante appelée Nour, nous avons ensuite posé une question à propos de cette étudiante à l'agent AI, en utilisant un contrôleur web. La figure \ref{fig:test-rag} montre le résultat obtenu.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=\textwidth]{test-rag.png}}
+		\caption{\textit{Test du premier prototype}}
 		\label{fig:test-rag}
+	\end{figure}
+	
+	Le modèle choisi pour tester ce prototype est Llama3, le prototype à réussi à répondre correctement à la question posée.
+	
+	\subsection{Dernière version}
+	
+	Le projet a abouti à la mise en place d’une API robuste et intuitive pour l’analyse technique d’erreurs, intégrant deux inputs, le premier étant un texte qui pourra être une copie d'une stacktrace ou bien simplement une description d'une erreur confrontée, et le deuxième - qui est optionnel - une image destinée à contenir une capture d’écran.
+	
+	Le recours à un modèle de langage multimodal s’est avéré donc nécessaire. À cet effet, le modèle \verb|Qwen2.5vl:7b| a été retenu pour ses capacités d’analyse conjointe du texte et de l’image.
+	
+	Quand au RAG, il a été utilisé pour améliorer la pertinence et la précision des analyses d’erreurs en enrichissant le texte et la capture d'écran avec des extraits pertinents du code source de l’application qui présente une erreur.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics{structure-projet.png}}
+		\caption{\textit{Structure du projet}}
+		\label{fig:structure-projet}
 	\end{figure}
 	
 	

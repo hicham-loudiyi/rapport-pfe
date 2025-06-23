@@ -14,4 +14,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{23}{figure.3.5}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{24}{figure.3.6}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{24}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Test du RAG}}}{25}{figure.3.8}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Un morceau de la classe de configuration}}}{25}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Utilisation de la classe de configuration}}}{26}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Test du premier prototype}}}{27}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Structure du projet}}}{28}{figure.3.11}%

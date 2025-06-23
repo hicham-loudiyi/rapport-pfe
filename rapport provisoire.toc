@@ -43,5 +43,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Utilisation de Bibliothèques Matures : Apache Commons}{20}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Approches de parcours de collections en Java}{21}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Importance de la factorisation du code}{23}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Premier prototype}{25}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Introduction}{25}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.3.4}Utilisation d'une classe de configuration}{25}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Captures d'écran}{26}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Premier prototype}{26}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Dernière version}{27}{subsection.3.4.2}%

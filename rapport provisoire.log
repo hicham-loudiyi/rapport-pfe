@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  22 JUN 2025 19:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  23 JUN 2025 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,7 +517,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 	\listoftables
+l.72 	\listoftables
                     [2
 
 ] (rapport provisoire.lot)
@@ -531,7 +531,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 	\tableofcontents
+l.75 	\tableofcontents
                        [3
 
 ] (rapport provisoire.toc
@@ -555,29 +555,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 	\clearpage
+l.78 	\clearpage
                  [5]
 Chapitre 1.
 
-Overfull \hbox (37.97421pt too wide) in paragraph at lines 84--85
+Overfull \hbox (37.97421pt too wide) in paragraph at lines 88--89
 []\T1/cmr/m/n/12 L'objectif prin-ci-pal est de se fa-mi-lia-ri-ser avec les réa
 -li-tés du mar-ché du tra-vail, par-ti-cu-liè-re-ment
  []
 
 
-Overfull \hbox (14.44539pt too wide) in paragraph at lines 84--85
+Overfull \hbox (14.44539pt too wide) in paragraph at lines 88--89
 \T1/cmr/m/n/12 dans le do-maine de l'in-for-ma-tique, en per-pé-tuelle évo-lu-t
 ion. Ce pro-jet offre ainsi l'op-por-tu-nité
  []
 
 
-Overfull \hbox (9.68123pt too wide) in paragraph at lines 86--87
+Overfull \hbox (9.68123pt too wide) in paragraph at lines 90--91
 \T1/cmr/m/n/12 pro-fes-sion-nelle a été l'oc-ca-sion dé-cou-vrir le fonc-tion-n
 e-ment d'une équipe pro-jet en condi-tions
  []
 
 
-Overfull \hbox (40.389pt too wide) in paragraph at lines 88--89
+Overfull \hbox (40.389pt too wide) in paragraph at lines 92--93
 []\T1/cmr/m/n/12 L'utilisation de Scrum a ren-forcé ma com-pré-hen-sion des pro
 -ces-sus mo-dernes de dé-ve-lop-pe-ment,
  []
@@ -588,15 +588,15 @@ Overfull \hbox (40.389pt too wide) in paragraph at lines 88--89
 
 
 ]
-<algolus-logo.png, id=243, 471.7625pt x 139.52126pt>
+<algolus-logo.png, id=259, 471.7625pt x 139.52126pt>
 File: algolus-logo.png Graphic file (type png)
 <use algolus-logo.png>
-Package pdftex.def Info: algolus-logo.png  used on input line 98.
+Package pdftex.def Info: algolus-logo.png  used on input line 102.
 (pdftex.def)             Requested size: 136.57462pt x 40.392pt.
-<algolus-organigramme.png, id=245, 859.71187pt x 1047.915pt>
+<algolus-organigramme.png, id=261, 859.71187pt x 1047.915pt>
 File: algolus-organigramme.png Graphic file (type png)
 <use algolus-organigramme.png>
-Package pdftex.def Info: algolus-organigramme.png  used on input line 153.
+Package pdftex.def Info: algolus-organigramme.png  used on input line 157.
 (pdftex.def)             Requested size: 455.24411pt x 554.9126pt.
 
 
@@ -605,15 +605,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.156 	\end{figure}
+l.160 	\end{figure}
                    
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.156 	\end{figure}
+l.160 	\end{figure}
                     <./algolus-logo.png>]
-Overfull \hbox (1.52338pt too wide) in paragraph at lines 162--163
+Overfull \hbox (1.52338pt too wide) in paragraph at lines 166--167
 \T1/cmr/m/n/12 (logs, stack traces, cap-tures d'écran, re-tours uti-li-sa-teurs
 , etc.) et de la com-plexité crois-sante
  []
@@ -625,9 +625,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.163 	
+l.167 	
         <./algolus-organigramme.png>]
-Overfull \hbox (25.54947pt too wide) in paragraph at lines 177--178
+Overfull \hbox (25.54947pt too wide) in paragraph at lines 181--182
 []\T1/cmr/bx/n/12 Analyse et Com-pré-hen-sion \T1/cmr/m/n/12 : Ana-lyse sé-man-
 tique de re-tours d'er-reurs, en-ri-chis-se-ment
  []
@@ -635,37 +635,37 @@ tique de re-tours d'er-reurs, en-ri-chis-se-ment
 
 
 [4]
-Overfull \hbox (18.13596pt too wide) in paragraph at lines 181--182
+Overfull \hbox (18.13596pt too wide) in paragraph at lines 185--186
 \T1/cmr/m/n/12 uploa-der des stack-traces et des cap-tures d'écran, vi-sua-li-s
 a-tion des ré-sul-tats : Da-sh-board
  []
 
 
-Overfull \hbox (44.1395pt too wide) in paragraph at lines 187--188
+Overfull \hbox (44.1395pt too wide) in paragraph at lines 191--192
 \T1/cmr/m/n/12 sys-tème doit fonc-tion-ner, en pré-ci-sant ses contraintes de q
 ua-lité, de per-for-mance et d'in-fra-struc-ture.
  []
 
 
-Overfull \hbox (0.77512pt too wide) in paragraph at lines 189--190
+Overfull \hbox (0.77512pt too wide) in paragraph at lines 193--194
 []\T1/cmr/m/n/12 Pour ga-ran-tir une in-té-gra-tion har-mo-nieuse dans l'éco-sy
 s-tème exis-tant et une ex-pé-rience
  []
 
 
-Overfull \hbox (3.42157pt too wide) in paragraph at lines 195--196
+Overfull \hbox (3.42157pt too wide) in paragraph at lines 199--200
 \T1/cmr/m/n/12 de ré-ponse avec schéma co-hé-rent, sup-port of-fline : fonc-tio
 n-ne-ment lo-cal avec Ol-lama. 
  []
 
 
-Overfull \hbox (1.9192pt too wide) in paragraph at lines 197--198
+Overfull \hbox (1.9192pt too wide) in paragraph at lines 201--202
 []\T1/cmr/bx/n/12 Sécurité et Confi-den-tia-lité \T1/cmr/m/n/12 : Pro-tec-tion 
 des don-nées par chif-fre-ment des échanges
  []
 
 
-Overfull \hbox (13.98425pt too wide) in paragraph at lines 220--221
+Overfull \hbox (13.98425pt too wide) in paragraph at lines 224--225
 []\T1/cmr/bx/n/12 Analyse Mul-ti-mo-dale des Er-reurs \T1/cmr/m/n/12 : Im-plé-m
 en-ter un sys-tème ca-pable d'in-ter-pré-ter
  []
@@ -673,7 +673,7 @@ en-ter un sys-tème ca-pable d'in-ter-pré-ter
 
 
 [5]
-Overfull \hbox (9.45633pt too wide) in paragraph at lines 226--227
+Overfull \hbox (9.45633pt too wide) in paragraph at lines 230--231
 \T1/cmr/m/n/12 de pré-ci-sion (taux de dé-tec-tion, per-ti-nence des cor-rec-ti
 fs), et ef-fec-tuer un Bench-mark :
  []
@@ -683,31 +683,31 @@ fs), et ef-fec-tuer un Bench-mark :
 [6]
 Chapitre 2.
 
-Overfull \hbox (16.13802pt too wide) in paragraph at lines 234--235
+Overfull \hbox (16.13802pt too wide) in paragraph at lines 238--239
 \T1/cmr/m/n/12 éven-tuelles in-co-hé-rences et à po-ser les bases d'une concep-
 tion so-lide. Une ana-lyse fonc-tion-nelle
  []
 
 
-Overfull \hbox (1.5804pt too wide) in paragraph at lines 236--237
+Overfull \hbox (1.5804pt too wide) in paragraph at lines 240--241
 []\T1/cmr/m/n/12 Dans ce cha-pitre nous pré-sen-tons une in-tro-duc-tion à la m
 o-dé-li-sa-tion UML, en rap-pe-lant
  []
 
 
-Overfull \hbox (2.68446pt too wide) in paragraph at lines 240--241
+Overfull \hbox (2.68446pt too wide) in paragraph at lines 244--245
 []\T1/cmr/m/n/12 Dans le cadre d'un pro-jet de dé-ve-lop-pe-ment in-for-ma-tiqu
 e la mo-dé-li-sa-tion UML (Uni-fied
  []
 
 
-Overfull \hbox (9.355pt too wide) in paragraph at lines 240--241
+Overfull \hbox (9.355pt too wide) in paragraph at lines 244--245
 \T1/cmr/m/n/12 dia-grammes nor-ma-li-sés qui per-mettent de re-pré-sen-ter vi-s
 uel-le-ment les dif-fé-rentes di-men-sions
  []
 
 
-Overfull \hbox (9.55066pt too wide) in paragraph at lines 240--241
+Overfull \hbox (9.55066pt too wide) in paragraph at lines 244--245
 \T1/cmr/m/n/12 d'un lo-gi-ciel, telles que la struc-ture, le com-por-te-ment et
  les in-ter-ac-tions entre les com-po-sants. 
  []
@@ -717,24 +717,24 @@ Overfull \hbox (9.55066pt too wide) in paragraph at lines 240--241
 [7
 
 ]
-Overfull \hbox (3.0899pt too wide) in paragraph at lines 244--245
+Overfull \hbox (3.0899pt too wide) in paragraph at lines 248--249
 \T1/cmr/m/n/12 pé-ren-nité d'un pro-jet in-for-ma-tique, en ap-por-tant une vi-
 sion glo-bale et par-ta-gée du sys-tème. 
  []
 
 
-Overfull \hbox (0.75278pt too wide) in paragraph at lines 263--264
+Overfull \hbox (0.75278pt too wide) in paragraph at lines 267--268
 []\T1/cmr/bx/n/12 Système \T1/cmr/m/n/12 : le mo-teur de trai-te-ment in-tel-li
 -gent, res-pon-sable d'ana-ly-ser les ano-ma-lies,
  []
 
-<use-case.drawio.png, id=289, 472.76625pt x 482.80376pt>
+<use-case.drawio.png, id=305, 472.76625pt x 482.80376pt>
 File: use-case.drawio.png Graphic file (type png)
 <use use-case.drawio.png>
-Package pdftex.def Info: use-case.drawio.png  used on input line 272.
+Package pdftex.def Info: use-case.drawio.png  used on input line 276.
 (pdftex.def)             Requested size: 472.76509pt x 482.80258pt.
 
-Overfull \hbox (17.52098pt too wide) in paragraph at lines 272--273
+Overfull \hbox (17.52098pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
@@ -747,59 +747,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.283 ...ection{Diagramme de sÃ©quences principal}
+l.287 ...ection{Diagramme de sÃ©quences principal}
                                                    <./use-case.drawio.png>]
-Overfull \hbox (1.4094pt too wide) in paragraph at lines 291--292
+Overfull \hbox (1.4094pt too wide) in paragraph at lines 295--296
 []\T1/cmr/bx/n/12 LLM (Large Lan-guage Mo-del) \T1/cmr/m/n/12 : Est un mo-dèle 
 d'in-tel-li-gence ar-ti-fi-cielle en-traîné
  []
 
 
-Overfull \hbox (13.55087pt too wide) in paragraph at lines 293--294
-[]\T1/cmr/bx/n/12 RAG (Retrieval-Augmented Ge-ne-ra-tion) \T1/cmr/m/n/12 : ap-p
-orte une di-men-sion do-cu-men-taire
+Overfull \hbox (26.11168pt too wide) in paragraph at lines 297--298
+[]\T1/cmr/bx/n/12 RAG (Retrieval-Augmented Ge-ne-ra-tion) \T1/cmr/m/n/12 : Est 
+une ar-chi-tec-ture hy-bride com-bi-nant
  []
 
 
-Overfull \hbox (31.14824pt too wide) in paragraph at lines 293--294
-\T1/cmr/m/n/12 d'en-ri-chir les ré-ponses du LLM avec des connais-sances pro-ve
--nant d'une base do-cu-men-taire
- []
-
-
-Overfull \hbox (10.83789pt too wide) in paragraph at lines 295--296
-[]\T1/cmr/bx/n/12 Agent AI \T1/cmr/m/n/12 : sert de chef d'or-chestre prin-ci-p
-al dans l'ar-chi-tec-ture. Ce ser-vice in-tel-li-gent
- []
-
-
-Overfull \hbox (23.06114pt too wide) in paragraph at lines 295--296
-\T1/cmr/m/n/12 co-or-donne l'en-semble du pro-ces-sus d'ana-lyse. Il re-çoit le
-s re-quêtes brutes de l'uti-li-sa-teur,
- []
-
-
-Overfull \hbox (4.4409pt too wide) in paragraph at lines 295--296
-\T1/cmr/m/n/12 les en-ri-chit en com-bi-nant plu-sieurs tech-niques avan-cées c
-omme le RAG et la mé-moire
+Overfull \hbox (4.2922pt too wide) in paragraph at lines 301--302
+[]\T1/cmr/m/n/12 Parmi les atouts ma-jeurs d'un Agent AI, sa ca-pa-cité à confi
+-gu-rer dy-na-mi-que-ment
  []
 
 
 
 [10]
-<ds-ai-agent.drawio.png, id=305, 884.30376pt x 392.46625pt>
+<ds-ai-agent.drawio.png, id=321, 884.30376pt x 392.46625pt>
 File: ds-ai-agent.drawio.png Graphic file (type png)
 <use ds-ai-agent.drawio.png>
-Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 307.
+Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 327.
 (pdftex.def)             Requested size: 455.24411pt x 202.0475pt.
 
-Overfull \hbox (3.71873pt too wide) in paragraph at lines 314--315
+Overfull \hbox (3.71873pt too wide) in paragraph at lines 334--335
 []\T1/cmr/m/n/12 Nous al-lons creu-ser un peu dans les com-po-sants du sys-tème
  RAG, voici une énu-mé-ra-tion
  []
 
 
-Overfull \hbox (3.24675pt too wide) in paragraph at lines 320--321
+Overfull \hbox (10.82129pt too wide) in paragraph at lines 338--339
+\T1/cmr/m/n/12 peuvent prendre di-verses formes : fi-chiers PDF conte-nant la d
+o-cu-men-ta-tion tech-nique,
+ []
+
+
+Overfull \hbox (3.24675pt too wide) in paragraph at lines 340--341
 []\T1/cmr/bx/n/12 Tokenizer \T1/cmr/m/n/12 : Joue un rôle fon-da-men-tal dans l
 e pré-trai-te-ment du texte. Ce com-po-sant
  []
@@ -811,153 +799,154 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.323 		
+l.341 		
          <./ds-ai-agent.drawio.png>]
-Overfull \hbox (7.59846pt too wide) in paragraph at lines 324--325
+Overfull \hbox (7.59846pt too wide) in paragraph at lines 344--345
 \T1/cmr/m/n/12 Cette struc-tu-ra-tion ri-gou-reuse est es-sen-tielle pour main-
 te-nir la co-hé-rence des don-nées
  []
 
 
-Overfull \hbox (9.32567pt too wide) in paragraph at lines 326--327
+Overfull \hbox (9.32567pt too wide) in paragraph at lines 346--347
 \T1/cmr/m/n/12 (em-bed-dings) qui cap-turent le sens pro-fond des conte-nus. De
 s mo-dèles sont spé-cia-li-sés
  []
 
 
-Overfull \hbox (0.81119pt too wide) in paragraph at lines 332--333
+Overfull \hbox (0.81119pt too wide) in paragraph at lines 352--353
 \T1/cmr/m/n/12 si-mi-la-rité vec-to-rielle (co-sine si-mi-la-rity par exemple) 
 et peut être fi-ne-ment pa-ra-mé-tré
  []
 
-<ds-rag.drawio.png, id=312, 1004.75375pt x 452.69125pt>
-File: ds-rag.drawio.png Graphic file (type png)
-<use ds-rag.drawio.png>
-Package pdftex.def Info: ds-rag.drawio.png  used on input line 340.
-(pdftex.def)             Requested size: 455.24411pt x 205.10449pt.
 
 
 [12]
+<ds-rag.drawio.png, id=332, 1004.75375pt x 452.69125pt>
+File: ds-rag.drawio.png Graphic file (type png)
+<use ds-rag.drawio.png>
+Package pdftex.def Info: ds-rag.drawio.png  used on input line 360.
+(pdftex.def)             Requested size: 455.24411pt x 205.10449pt.
+
 
 [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.345 	\chapter
+l.365 	\chapter
                {RÃ©alisation} <./ds-rag.drawio.png>]
 Chapitre 3.
 
-Overfull \hbox (1.38881pt too wide) in paragraph at lines 347--348
+Overfull \hbox (1.38881pt too wide) in paragraph at lines 367--368
 \T1/cmr/m/n/12 ar-chi-tec-tu-raux se tra-duisent en une im-plé-men-ta-tion fonc
 -tion-nelle. Il dé-crit l'en-vi-ron-ne-ment
  []
 
-<java-logo.png, id=322, 401.5pt x 513.92pt>
+<java-logo.png, id=338, 401.5pt x 513.92pt>
 File: java-logo.png Graphic file (type png)
 <use java-logo.png>
-Package pdftex.def Info: java-logo.png  used on input line 363.
+Package pdftex.def Info: java-logo.png  used on input line 383.
 (pdftex.def)             Requested size: 68.28383pt x 87.40445pt.
 
-Underfull \hbox (badness 4217) in paragraph at lines 375--376
+Underfull \hbox (badness 4217) in paragraph at lines 395--396
 []\T1/cmr/m/n/12 Spring est un fra-me-work mo-du-laire pour Java, sim-pli-fiant
  le
  []
 
-<spring-logo.png, id=323, 1885.30435pt x 1886.08989pt>
+<spring-logo.png, id=339, 1885.30435pt x 1886.08989pt>
 File: spring-logo.png Graphic file (type png)
 <use spring-logo.png>
-Package pdftex.def Info: spring-logo.png  used on input line 381.
+Package pdftex.def Info: spring-logo.png  used on input line 401.
 (pdftex.def)             Requested size: 68.28383pt x 68.29346pt.
 
 
 [14
 
  <./java-logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\T1/cmr/m/n/12 Spring Boot étend Spring en four-nis-sant des confi-gu-ra-tion
 s
  []
 
-<spring-boot-logo.png, id=330, 301.125pt x 301.125pt>
+<spring-boot-logo.png, id=346, 301.125pt x 301.125pt>
 File: spring-boot-logo.png Graphic file (type png)
 <use spring-boot-logo.png>
-Package pdftex.def Info: spring-boot-logo.png  used on input line 397.
+Package pdftex.def Info: spring-boot-logo.png  used on input line 417.
 (pdftex.def)             Requested size: 68.28383pt x 68.28319pt.
 
-Underfull \hbox (badness 3009) in paragraph at lines 408--409
+Underfull \hbox (badness 3009) in paragraph at lines 428--429
 []\T1/cmr/m/n/12 LangChain4J est une bi-blio-thèque Java ins-pi-rée de Lang-Cha
 in
  []
 
-<langchain4j-logo.png, id=331, 534.99875pt x 552.0625pt>
+<langchain4j-logo.png, id=347, 534.99875pt x 552.0625pt>
 File: langchain4j-logo.png Graphic file (type png)
 <use langchain4j-logo.png>
-Package pdftex.def Info: langchain4j-logo.png  used on input line 414.
+Package pdftex.def Info: langchain4j-logo.png  used on input line 434.
 (pdftex.def)             Requested size: 68.28383pt x 70.45653pt.
-<apache-commons-logo.png, id=332, 616.3025pt x 149.55875pt>
+<apache-commons-logo.png, id=348, 616.3025pt x 149.55875pt>
 File: apache-commons-logo.png Graphic file (type png)
 <use apache-commons-logo.png>
-Package pdftex.def Info: apache-commons-logo.png  used on input line 432.
+Package pdftex.def Info: apache-commons-logo.png  used on input line 452.
 (pdftex.def)             Requested size: 68.28383pt x 16.57018pt.
-<postgresql-logo.png, id=333, 730.73pt x 752.8125pt>
+<postgresql-logo.png, id=349, 730.73pt x 752.8125pt>
 File: postgresql-logo.png Graphic file (type png)
 <use postgresql-logo.png>
-Package pdftex.def Info: postgresql-logo.png  used on input line 450.
+Package pdftex.def Info: postgresql-logo.png  used on input line 470.
 (pdftex.def)             Requested size: 68.28383pt x 70.34625pt.
 
 
 [15 <./spring-logo.png> <./spring-boot-logo.png> <./langchain4j-logo.png> <./ap
 ache-commons-logo.png>]
-<ollama-logo.png, id=342, 1518.67375pt x 2007.5pt>
+<ollama-logo.png, id=358, 1518.67375pt x 2007.5pt>
 File: ollama-logo.png Graphic file (type png)
 <use ollama-logo.png>
-Package pdftex.def Info: ollama-logo.png  used on input line 468.
+Package pdftex.def Info: ollama-logo.png  used on input line 488.
 (pdftex.def)             Requested size: 68.28383pt x 90.2417pt.
-<maven-logo.png, id=343, 1173.38374pt x 305.14pt>
+<maven-logo.png, id=359, 1173.38374pt x 305.14pt>
 File: maven-logo.png Graphic file (type png)
 <use maven-logo.png>
-Package pdftex.def Info: maven-logo.png  used on input line 484.
+Package pdftex.def Info: maven-logo.png  used on input line 504.
 (pdftex.def)             Requested size: 68.28383pt x 17.75352pt.
-<intellij-logo.png, id=344, 803.0pt x 803.0pt>
+<intellij-logo.png, id=360, 803.0pt x 803.0pt>
 File: intellij-logo.png Graphic file (type png)
 <use intellij-logo.png>
-Package pdftex.def Info: intellij-logo.png  used on input line 500.
+Package pdftex.def Info: intellij-logo.png  used on input line 520.
 (pdftex.def)             Requested size: 68.28383pt x 68.27248pt.
-<git-logo.png, id=345, 513.92pt x 513.92pt>
+<git-logo.png, id=361, 513.92pt x 513.92pt>
 File: git-logo.png Graphic file (type png)
 <use git-logo.png>
-Package pdftex.def Info: git-logo.png  used on input line 516.
+Package pdftex.def Info: git-logo.png  used on input line 536.
 (pdftex.def)             Requested size: 68.28383pt x 68.27835pt.
 
 
 [16 <./postgresql-logo.png> <./ollama-logo.png> <./maven-logo.png> <./intellij-
 logo.png>]
-Overfull \hbox (6.13205pt too wide) in paragraph at lines 530--531
+Overfull \hbox (6.13205pt too wide) in paragraph at lines 550--551
 []\T1/cmr/m/n/12 Spring Boot per-met de struc-tu-rer l'ap-pli-ca-tion de ma-niè
 re mo-du-laire, en sé-pa-rant
  []
 
 
-Overfull \hbox (36.05234pt too wide) in paragraph at lines 530--531
+Overfull \hbox (36.05234pt too wide) in paragraph at lines 550--551
 \T1/cmr/m/n/12 clai-re-ment les res-pon-sa-bi-li-tés (contrô-leurs, ser-vices, 
 confi-gu-ra-tion, etc.). Cette or-ga-ni-sa-tion
  []
 
 
-Overfull \hbox (10.76569pt too wide) in paragraph at lines 532--533
+Overfull \hbox (10.76569pt too wide) in paragraph at lines 552--553
 []\T1/cmr/m/n/12 L'application est éga-le-ment por-table, dans la me-sure où el
 le peut être condi-tion-née
  []
 
 
-Overfull \hbox (3.19121pt too wide) in paragraph at lines 534--535
+Overfull \hbox (3.19121pt too wide) in paragraph at lines 554--555
 \T1/cmr/m/n/12 na-tu-rel-le-ment avec des bi-blio-thèques telles que Lang-Chain
 4j ou des bases de don-nées
  []
 
 
-Overfull \hbox (29.0404pt too wide) in paragraph at lines 542--543
+Overfull \hbox (29.0404pt too wide) in paragraph at lines 562--563
 []\T1/cmr/m/n/12 LangChain4j fa-ci-lite la mise en ÷uvre d'un mé-ca-nisme de RA
 G (Retrieval-Augmented
  []
@@ -965,55 +954,55 @@ G (Retrieval-Augmented
 
 
 [17 <./git-logo.png>]
-Overfull \hbox (15.5257pt too wide) in paragraph at lines 544--545
+Overfull \hbox (15.5257pt too wide) in paragraph at lines 564--565
 \T1/cmr/m/n/12 in-ter-faces. Elle offre éga-le-ment un haut ni-veau de confi-gu
 -ra-bi-lité, per-met-tant d'adap-ter
  []
 
 
-Overfull \hbox (13.93282pt too wide) in paragraph at lines 550--551
+Overfull \hbox (13.93282pt too wide) in paragraph at lines 570--571
 []\T1/cmr/m/n/12 Ce choix pré-sente plu-sieurs avan-tages : tout d'abord, il re
 nd l'ap-pli-ca-tion au-to-nome
  []
 
 
-Overfull \hbox (15.03828pt too wide) in paragraph at lines 550--551
+Overfull \hbox (15.03828pt too wide) in paragraph at lines 570--571
 \T1/cmr/m/n/12 n'est re-quis. Cela per-met un dé-ploie-ment sur des ma-chines l
 o-cales ou en en-vi-ron-ne-ment
  []
 
 
-Overfull \hbox (29.08896pt too wide) in paragraph at lines 552--553
+Overfull \hbox (29.08896pt too wide) in paragraph at lines 572--573
 []\T1/cmr/m/n/12 Grâce à une confi-gu-ra-tion cen-tra-li-sée (adresse du ser-ve
 ur, mo-dèle uti-lisé, tem-pé-ra-ture,
  []
 
 
-Overfull \hbox (4.72678pt too wide) in paragraph at lines 552--553
+Overfull \hbox (4.72678pt too wide) in paragraph at lines 572--573
 \T1/cmr/m/n/12 se fait via des beans Spring ins-tan-ciés dy-na-mi-que-ment dans
  la classe de confi-gu-ra-tion
  []
 
 
-Overfull \hbox (8.96896pt too wide) in paragraph at lines 554--555
+Overfull \hbox (8.96896pt too wide) in paragraph at lines 574--575
 \T1/cmr/m/n/12 de ré-ponses contex-tua-li-sées et per-ti-nentes, en te-nant com
 pte des do-cu-ments ré-cu-pé-rés
  []
 
 
-Overfull \hbox (6.42358pt too wide) in paragraph at lines 556--557
+Overfull \hbox (6.42358pt too wide) in paragraph at lines 576--577
 \T1/cmr/m/n/12 avec une orien-ta-tion spé-ci-fique vers le sto-ckage vec-to-rie
 l, dans le cadre de l'in-dexa-tion
  []
 
 
-Overfull \hbox (17.98615pt too wide) in paragraph at lines 556--557
+Overfull \hbox (17.98615pt too wide) in paragraph at lines 576--577
 \T1/cmr/m/n/12 et de la re-cherche de do-cu-ments sé-man-tiques. Grâce à l'ex-t
 en-sion pg-vec-tor, Post-greSQL
  []
 
 
-Overfull \hbox (3.77425pt too wide) in paragraph at lines 558--559
+Overfull \hbox (3.77425pt too wide) in paragraph at lines 578--579
 \T1/cmr/m/n/12 vec-teurs is-sus des mo-dèles d'em-bed-ding (ex. Ol-la-maEm-bed-
 ding-Mo-del), et per-mettre
  []
@@ -1021,14 +1010,14 @@ ding-Mo-del), et per-mettre
 
 
 [18]
-<illustration-graphique.drawio.png, id=364, 810.02625pt x 733.74126pt>
+<illustration-graphique.drawio.png, id=380, 810.02625pt x 733.74126pt>
 File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
-570.
+590.
 (pdftex.def)             Requested size: 455.24411pt x 412.38136pt.
 
-Overfull \hbox (6.62387pt too wide) in paragraph at lines 575--575
+Overfull \hbox (6.62387pt too wide) in paragraph at lines 595--595
 |[]\T1/cmr/bx/n/17.28 Bonnes pra-tiques ap-pli-quées du dé-ve-lop-pe-ment Java|
  
  []
@@ -1040,32 +1029,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.578 	
+l.598 	
         <./illustration-graphique.drawio.png>]
-Overfull \hbox (50.19363pt too wide) in paragraph at lines 583--584
+Overfull \hbox (50.19363pt too wide) in paragraph at lines 603--604
 \T1/cmr/m/n/12 exemple la mé-thode [][]\T1/cmtt/m/n/12 estimateTokenCountInText
 (String text) []\T1/cmr/m/n/12 de la classe [][]\T1/cmtt/m/n/12 TokenizerMyAppI
 mpl[]\T1/cmr/m/n/12 ,
  []
 
-<before-string-utils.png, id=371, 325.215pt x 100.57574pt>
+<before-string-utils.png, id=387, 325.215pt x 100.57574pt>
 File: before-string-utils.png Graphic file (type png)
 <use before-string-utils.png>
-Package pdftex.def Info: before-string-utils.png  used on input line 587.
+Package pdftex.def Info: before-string-utils.png  used on input line 607.
 (pdftex.def)             Requested size: 325.2142pt x 100.57549pt.
 
-Overfull \hbox (1.16241pt too wide) in paragraph at lines 594--595
+Overfull \hbox (1.16241pt too wide) in paragraph at lines 614--615
 []\T1/cmr/m/n/12 L'adoption d'une nou-velle im-plé-men-ta-tion ex-ploi-tant la 
 bi-blio-thèque Apache Com-mons
  []
 
-<after-string-utils.png, id=373, 323.40825pt x 100.57574pt>
+<after-string-utils.png, id=389, 323.40825pt x 100.57574pt>
 File: after-string-utils.png Graphic file (type png)
 <use after-string-utils.png>
-Package pdftex.def Info: after-string-utils.png  used on input line 598.
+Package pdftex.def Info: after-string-utils.png  used on input line 618.
 (pdftex.def)             Requested size: 323.40744pt x 100.57549pt.
 
-Overfull \hbox (14.82861pt too wide) in paragraph at lines 603--604
+Overfull \hbox (14.82861pt too wide) in paragraph at lines 623--624
 \T1/cmr/m/n/12 es-paces blancs, Ce qui donne plus de ro-bus-tesse au pro-jet, e
 n évi-tant les Null-Poin-te-rEx-cep-tion
  []
@@ -1077,45 +1066,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.604 	
+l.624 	
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.604 	
+l.624 	
         <./before-string-utils.png> <./after-string-utils.png>]
-Overfull \hbox (15.51994pt too wide) in paragraph at lines 607--608
+Overfull \hbox (15.51994pt too wide) in paragraph at lines 627--628
 \T1/cmr/m/n/12 Plu-sieurs ap-proches s'of-fraient alors à moi, cha-cune pré-sen
 -tant des ca-rac-té-ris-tiques dis-tinctes : 
  []
 
 
-Overfull \hbox (12.78455pt too wide) in paragraph at lines 611--612
+Overfull \hbox (12.78455pt too wide) in paragraph at lines 631--632
 \T1/cmr/m/n/12 in-dex nu-mé-rique. Bien que simple concep-tuel-le-ment, elle mo
 ntre plu-sieurs li-mi-ta-tions :
  []
 
 
-Overfull \hbox (19.7301pt too wide) in paragraph at lines 611--612
+Overfull \hbox (19.7301pt too wide) in paragraph at lines 631--632
 \T1/cmr/m/n/12 d'in-dice ([][]\T1/cmtt/m/n/12 IndexOutOfBoundsException[]\T1/cm
 r/m/n/12 ), une in-adap-ta-tion aux struc-tures non in-dexées
  []
 
 
-Overfull \hbox (1.54706pt too wide) in paragraph at lines 615--616
+Overfull \hbox (1.54706pt too wide) in paragraph at lines 635--636
 []\T1/cmr/bx/n/12 L'Iterator \T1/cmr/m/n/12 : Four-nit un contrôle fin sur le p
 ar-cours, en ef-fet, il per-met la sup-pres-sion
  []
 
 
-Overfull \hbox (10.43524pt too wide) in paragraph at lines 617--618
+Overfull \hbox (10.43524pt too wide) in paragraph at lines 637--638
 \T1/cmr/m/n/12 avec Java 8 qui per-mettent de trai-ter des col-lec-tions de don
 -nées de fa-çon fonc-tion-nelle,
  []
 
 
-Overfull \hbox (28.02536pt too wide) in paragraph at lines 619--626
+Overfull \hbox (28.02536pt too wide) in paragraph at lines 639--646
 \T1/cmr/m/n/12 per-met un trai-te-ment pa-ral-lèle au-to-ma-tisé des col-lec-ti
 ons en ti-rant parti des ar-chi-tec-tures
  []
@@ -1124,17 +1113,17 @@ ons en ti-rant parti des ar-chi-tec-tures
 
 [21]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 673.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 693.
 
-Overfull \hbox (55.46983pt too wide) in paragraph at lines 678--679
+Overfull \hbox (55.46983pt too wide) in paragraph at lines 698--699
 \T1/cmr/m/n/12 estimateTokenCountInTools(Iterable<Object> ob-jects-Wi-th-Tools)
  de la classe To-ke-ni-zer-MyAp-pImpl
  []
 
-<before-stream.png, id=388, 447.47176pt x 164.41425pt>
+<before-stream.png, id=404, 447.47176pt x 164.41425pt>
 File: before-stream.png Graphic file (type png)
 <use before-stream.png>
-Package pdftex.def Info: before-stream.png  used on input line 682.
+Package pdftex.def Info: before-stream.png  used on input line 702.
 (pdftex.def)             Requested size: 447.47066pt x 164.41383pt.
 
 
@@ -1143,37 +1132,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.688 	
+l.708 	
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.688 	
+l.708 	
         <./before-stream.png>]
-<after-stream.png, id=395, 473.97075pt x 131.2905pt>
+<after-stream.png, id=411, 473.97075pt x 131.2905pt>
 File: after-stream.png Graphic file (type png)
 <use after-stream.png>
-Package pdftex.def Info: after-stream.png  used on input line 691.
+Package pdftex.def Info: after-stream.png  used on input line 711.
 (pdftex.def)             Requested size: 473.96959pt x 131.29016pt.
 
-Overfull \hbox (25.52547pt too wide) in paragraph at lines 691--692
+Overfull \hbox (25.52547pt too wide) in paragraph at lines 711--712
  [][] 
  []
 
 
-Overfull \hbox (50.67543pt too wide) in paragraph at lines 696--697
+Overfull \hbox (50.67543pt too wide) in paragraph at lines 716--717
 []\T1/cmr/m/n/12 Cette im-plé-men-ta-tion, of-frant une ges-tion ro-buste des n
 ull avec [][]\T1/cmtt/m/n/12 IterableUtils.emptyIfNull()[]\T1/cmr/m/n/12 ,
  []
 
-<before-factorisation.png, id=397, 657.657pt x 281.25075pt>
+<before-factorisation.png, id=413, 657.657pt x 281.25075pt>
 File: before-factorisation.png Graphic file (type png)
 <use before-factorisation.png>
-Package pdftex.def Info: before-factorisation.png  used on input line 708.
+Package pdftex.def Info: before-factorisation.png  used on input line 728.
 (pdftex.def)             Requested size: 455.24411pt x 194.69406pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 708--709
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 728--729
  [][] 
  []
 
@@ -1184,27 +1173,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.712 	
+l.732 	
         <./after-stream.png>]
-Overfull \hbox (3.23143pt too wide) in paragraph at lines 713--714
+Overfull \hbox (3.23143pt too wide) in paragraph at lines 733--734
 []\T1/cmr/m/n/12 Dans la fi-gure []3.6[], cha-cune des mé-thodes [][]\T1/cmtt/m
 /n/12 estimateTokenCountInToolSpecifications
  []
 
-<after-factorisation.png, id=405, 751.00575pt x 281.25075pt>
+<after-factorisation.png, id=421, 751.00575pt x 281.25075pt>
 File: after-factorisation.png Graphic file (type png)
 <use after-factorisation.png>
-Package pdftex.def Info: after-factorisation.png  used on input line 717.
+Package pdftex.def Info: after-factorisation.png  used on input line 737.
 (pdftex.def)             Requested size: 455.24411pt x 170.48552pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 717--718
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 737--738
  [][] 
  []
 
 
-Overfull \hbox (2.0763pt too wide) in paragraph at lines 733--734
-\T1/cmr/m/n/12 Dans un pre-mier temps, un pro-to-type fonc-tion-nel a été réa-l
-isé afin de va-li-der les fon-de-ments
+Overfull \hbox (4.8574pt too wide) in paragraph at lines 742--743
+[][]\T1/cmtt/m/n/12 countTokensInIterable(Iterable<T> iterable, ToIntFunction<T
+> tokenCounter)[]\T1/cmr/m/n/12 ,
  []
 
 
@@ -1214,20 +1203,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.734 	\begin{itemize}
-                      
+l.749 	
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.734 	\begin{itemize}
-                       <./before-factorisation.png> <./after-factorisation.png>
-]
-<test-rag.png, id=412, 670.00313pt x 92.345pt>
-File: test-rag.png Graphic file (type png)
-<use test-rag.png>
-Package pdftex.def Info: test-rag.png  used on input line 744.
-(pdftex.def)             Requested size: 455.24411pt x 62.74443pt.
+l.749 	
+        <./before-factorisation.png> <./after-factorisation.png>]
+<configuration-property-value.png, id=429, 337.86224pt x 246.9225pt>
+File: configuration-property-value.png Graphic file (type png)
+<use configuration-property-value.png>
+Package pdftex.def Info: configuration-property-value.png  used on input line 7
+54.
+(pdftex.def)             Requested size: 318.66948pt x 232.90591pt.
+<using-configuration-property-value.png, id=431, 433.62pt x 259.56975pt>
+File: using-configuration-property-value.png Graphic file (type png)
+<use using-configuration-property-value.png>
+Package pdftex.def Info: using-configuration-property-value.png  used on input 
+line 763.
+(pdftex.def)             Requested size: 409.71692pt x 245.2749pt.
 
 
 [25
@@ -1235,20 +1230,87 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.751 \end{document}
-                    } <./test-rag.png>] (rapport provisoire.aux)
+l.767 	
+        <./configuration-property-value.png>]
+Overfull \hbox (2.0763pt too wide) in paragraph at lines 776--777
+\T1/cmr/m/n/12 Dans un pre-mier temps, un pro-to-type fonc-tion-nel a été réa-l
+isé afin de va-li-der les fon-de-ments
+ []
+
+
+Overfull \hbox (0.28362pt too wide) in paragraph at lines 776--777
+\T1/cmr/m/n/12 tech-niques du pro-jet. Ce pro-to-type est une simple ap-pli-ca-
+tion ba-sée sur un agent in-tel-li-gent
+ []
+
+
+Overfull \hbox (19.31506pt too wide) in paragraph at lines 776--777
+\T1/cmr/m/n/12 ex-ploi-tant une ar-chi-tec-ture RAG uni-mo-dale, ca-pable de ré
+-pondre aux ques-tions de l'uti-li-sa-teur
+ []
+
+
+Overfull \hbox (6.4434pt too wide) in paragraph at lines 776--777
+\T1/cmr/m/n/12 à par-tir d'un do-cu-ment texte ou PDF fourni. Cette pre-mière v
+er-sion a per-mis de com-prendre
+ []
+
+<test-rag.png, id=438, 919.18407pt x 119.69719pt>
+File: test-rag.png Graphic file (type png)
+<use test-rag.png>
+Package pdftex.def Info: test-rag.png  used on input line 782.
+(pdftex.def)             Requested size: 455.24411pt x 59.28224pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 782--783
+ [][] 
+ []
+
+
+
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.786 	
+        <./using-configuration-property-value.png>]
+<structure-projet.png, id=445, 307.90031pt x 687.31781pt>
+File: structure-projet.png Graphic file (type png)
+<use structure-projet.png>
+Package pdftex.def Info: structure-projet.png  used on input line 799.
+(pdftex.def)             Requested size: 307.89955pt x 687.31613pt.
+
+
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.803 	
+        <./test-rag.png>]
+Overfull \vbox (18.26027pt too high) has occurred while \output is active []
+
+
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.803 	
+        <./structure-projet.png>] (rapport provisoire.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `"rapport provisoire".out' has not changed.
-(rerunfilecheck)             Checksum: 33F3ED5A550783270323BF9EAB15C011;6860.
+(rerunfilecheck)             Checksum: 445F214FFD25C2C2337D08E4C9A84DEA;7313.
  ) 
 Here is how much of TeX's memory you used:
- 12632 strings out of 468225
- 206036 string characters out of 5427165
- 638211 words of memory out of 5000000
- 40910 multiletter control sequences out of 15000+600000
+ 12664 strings out of 468225
+ 207004 string characters out of 5427165
+ 638419 words of memory out of 5000000
+ 40934 multiletter control sequences out of 15000+600000
  636635 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,886b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1264,9 +1326,9 @@ X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Electro_Laaroussi\A
 ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/El
 ectro_Laaroussi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on "rapport provisoire.pdf" (30 pages, 2184487 bytes).
+Output written on "rapport provisoire.pdf" (33 pages, 2312911 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
